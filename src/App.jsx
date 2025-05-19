@@ -1,9 +1,9 @@
-import DataFetching from "./components/data-fetching";
+import UseDebounce from "./components/custom-hooks/useDebounce";
 
 export default function App() {
   return (
     <div>
-      <DataFetching />
+      <UseDebounce />
     </div>
   );
 }
