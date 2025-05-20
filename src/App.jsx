@@ -1,9 +1,9 @@
-import UseDebounce from "./components/custom-hooks/useDebounce";
+import RenderRows from "./components/renderrows/render-rows";
 
 export default function App() {
   return (
     <div>
-      <UseDebounce />
+      <RenderRows />
     </div>
   );
 }
